@@ -34,6 +34,12 @@ function openInboxView(){
     composeEmail.style.display = 'none';
     sentForm.style.display = 'none';
     inboxForm.style.display = 'block';
+    inboxBtn.style.color = 'white';
+    inboxBtn.style.background = '#d8af3f';
+    sentBtn.style.color = 'white';
+    sentBtn.style.background = 'transparent';
+    draftBtn.style.color = 'white';
+    draftBtn.style.background = 'transparent'; 
 }
 
 // ==================================== sent ===================================================
@@ -48,7 +54,12 @@ function openSentView(){
     composeEmail.style.display = 'none';
     draftForm.style.display = 'none';
     sentForm.style.display = 'block';
-    
+    sentBtn.style.color = 'white';
+    sentBtn.style.background = '#d8af3f';
+    inboxBtn.style.color = 'white';
+    inboxBtn.style.background = 'transparent';
+    draftBtn.style.color = 'white';
+    draftBtn.style.background = 'transparent'; 
 }
 
 
@@ -63,7 +74,16 @@ function opendraftView(){
     inboxForm.style.display = 'none';
     composeEmail.style.display = 'none';
     sentForm.style.display = 'none';
-    draftForm.style.display = 'block';
+    CreateGroupeMailForm.style.display = 'none';
+    draftForm.style.display = 'block';    
+    draftBtn.style.color = 'white';
+    draftBtn.style.background = '#d8af3f';  
+     inboxBtn.style.color = 'white';
+    inboxBtn.style.background = 'transparent';
+    sentBtn.style.color = 'white';
+    sentBtn.style.background = 'transparent';
+
+
 }
 
 // ==================================== create Groupe ===================================================
