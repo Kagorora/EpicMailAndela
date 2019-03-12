@@ -36,6 +36,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 105%;
     cursor: pointer;
+    outline: none;
 }
 
 #composeBtn:hover{
@@ -73,6 +74,7 @@ ul li a:hover{
    border-top-left-radius: 7px;
    display: none;
    z-index: 1;
+   margin-bottom: 2em;
 }
 
 .topComposeEmail{
@@ -104,13 +106,24 @@ ul li a:hover{
     background: #ffffff;
 }
 
-.bottomComposeEmail form input,textarea{
+.bottomComposeEmail form input{
     display: block;
     width: 80%;
     margin: 0 auto 1em auto;
     padding: 12px;
     border: 0;
     border-bottom: 1px solid #302e2e;
+    outline: none;
+}
+
+#message{
+    display: block;
+    width: 80%;
+    margin: 0 auto 1em auto;
+    padding-bottom: 11em;
+    border: 0;
+    border-bottom: 1px solid #302e2e;
+    outline: 0;
 }
 
 #sendBtn{
@@ -121,6 +134,7 @@ ul li a:hover{
     color: white;
     background: #81c1fd;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #cancelBtn{
@@ -131,6 +145,7 @@ ul li a:hover{
     color: white;
     background: #fda881;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #sendBtn:hover{
@@ -157,8 +172,8 @@ ul li a:hover{
     width: 70%;
     height: 70vh;
     float: right;
-    margin-left: auto;
-    margin-right: 10em;
+    margin-left: 1em;
+    margin-right: 5em;
     margin-top: 3em;
     display:block;
 }
@@ -230,6 +245,10 @@ ul li a:hover{
 
 .messageInbox ul:hover{
     background: rgba(121, 116, 116, 0.2);
+}
+
+.sidebar ul a:hover{
+    color: #ffda74;
 }
 
 
