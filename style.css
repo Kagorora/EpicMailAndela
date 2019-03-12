@@ -49,10 +49,29 @@ ul li a{
  
 }
 
-ul li a:hover{
+#signInBtn{
     color: #ffb14a;
     border: solid 2px;
     border-radius: 3em;
+    letter-spacing: 0.2em;
+    transition: all 0.5s ease;
+}
+
+#signInBtn:hover{
+    background: #555552;
+    letter-spacing: 0.2em;
+    transition: all 0.5s ease;
+}
+
+
+#signUpBtn{
+    color: #ffb14a;
+    border: solid 2px;
+    border-radius: 3em;
+}
+
+#signUpBtn:hover{
+    background: #555552;
     letter-spacing: 0.2em;
     transition: all 0.5s ease;
 }
