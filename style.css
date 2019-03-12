@@ -49,13 +49,20 @@ ul li a{
  
 }
 
-ul li a:hover{
+#signInBtn, #signUpBtn{
     color: #ffb14a;
     border: solid 2px;
     border-radius: 3em;
+
+}
+
+#signInBtn:hover, #signUpBtn:hover{
     letter-spacing: 0.2em;
     transition: all 0.5s ease;
+    background: #555552;
 }
+
+
 
 #frm{
     display: none;
@@ -179,12 +186,13 @@ ul li a:hover{
     text-transform: uppercase;
     text-transform: capitalize;
     cursor: pointer;
+    background: #86857e;
 }
 
 #submt:hover{
     color: #ffb03a;
-    background: #86857e;
-    transition: all 0.5s ease;
+    background: #9b9a93;
+    transition: all 0.1s ease;
 }
 
 .top{
@@ -240,6 +248,7 @@ ul li a:hover{
     background: #cfcec5;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    
 }
 
 .bottom1 form{
@@ -263,12 +272,15 @@ ul li a:hover{
     font-family: 'Tw Cen MT Condensed Extra Bold';
     text-transform: uppercase;
     text-transform: capitalize;
+    background: #86857e;
 }
 
 #submt1:hover{
     color: #ffb03a;
     background: #86857e;
     transition: all 0.5s ease;
+    background: #9b9a93;
+    cursor: pointer;
 }
 
 .top1{
@@ -351,6 +363,7 @@ ul li a:hover{
     font-family: 'Tw Cen MT Condensed Extra Bold';
     text-transform: uppercase;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 #submt2:hover{
