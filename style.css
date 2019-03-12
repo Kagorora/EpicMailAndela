@@ -8,15 +8,16 @@ body{
     background-size: cover;
     background-position: center;
     font-family: Roboto, sans-serif;
-    color: white;
     height: 100vh;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+     overflow-x: hidden;
+     overflow-y: hidden;
 }
 
 .container{
     max-width: 1455px;
     margin: 0;
-
+    
 }
 
 .bar{
@@ -25,15 +26,20 @@ body{
     width: 100%;
     text-align: right;
     border-bottom: 1px solid rgba(236, 163, 78, 0.9); 
+ 
 }
 
 .bar > *{
     padding: 1em;
+
 }
 
 .bar ul li{
-    padding-left: 4em;
+    padding-left: 3em;
 }
+
+
+
 
 ul li{
     list-style: none;
@@ -53,7 +59,11 @@ ul li a{
     color: #ffb14a;
     border: solid 2px;
     border-radius: 3em;
+   
+}
 
+#signUpBtn{
+    margin-right: 3em;
 }
 
 #signInBtn:hover, #signUpBtn:hover{
