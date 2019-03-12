@@ -37,6 +37,19 @@ function dispalySignUp(){
     
 }
 
+// === submit form ===
+
+var submt1 = document.getElementById('submt1');
+
+submt1.addEventListener('click', showLoginForm);
+
+function showLoginForm(){
+    resetPasswdform.style.display = 'none';
+    signupform.style.display = 'none';
+    loginform.style.display= 'block';
+}
+
+
 
 //   ================================= Reset password ================================
 
