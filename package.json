@@ -4,15 +4,16 @@
   "description": "simple blog",
   "main": "animation.js",
   "dependencies": {
+    "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "eslint": "^5.15.1",
     "express": "^4.16.4",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "nodemon": "^1.18.10"
   },
   "scripts": {
