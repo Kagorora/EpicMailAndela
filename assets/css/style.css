@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(29, 28, 28, 0.7),rgba(29, 28, 28, 0.7)),url(Background1.jpg);
+    background-image: linear-gradient(rgba(29, 28, 28, 0.7),rgba(29, 28, 28, 0.7)),url(../img/Background1.jpg);
     background-size: cover;
     background-position: center;
     font-family: Roboto, sans-serif;
@@ -57,12 +57,11 @@ ul li a{
 
 #signInBtn, #signUpBtn{
     color: #ffb14a;
-    border: solid 2px;
     border-radius: 3em;
    
 }
 
-#signUpBtn{
+#signInBtn{
     margin-right: 3em;
 }
 

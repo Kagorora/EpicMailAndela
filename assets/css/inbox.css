@@ -11,7 +11,7 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url('Backgroumd2.jpg');
+    background-image: url('../img/Backgroumd2.jpg');
     position: absolute;
 }
 
@@ -24,8 +24,9 @@
     float: left;
     z-index: 1;
     display: block;
-
 }
+
+
 
 #composeBtn{
     margin: 4em 0 2em 0;
@@ -42,6 +43,10 @@
 #composeBtn:hover{
     background: rgba(252, 227, 85, 1);
     color: white;
+}
+
+#inboxBtn{
+    background: rgba(252, 227, 85, 0.6);
 }
 
 ul li{
@@ -162,7 +167,6 @@ ul li a:hover{
 
 .inboxForm{
     flex:1;
-    background: white;
     text-align:center;
     position:relative;
     padding-right:6px;
@@ -176,8 +180,8 @@ ul li a:hover{
     margin-right: 5em;
     margin-top: 3em;
     display:block;
+    background: white;
 }
-
 
 
 #senderMailHeader{
@@ -231,12 +235,13 @@ ul li a:hover{
     float: left;
     padding-left: 8.5em;
     padding-top: 7px;
-
+    
  }
 
  .messageInbox ul li span{
     color: #000000;
-    display: block
+    display: block;
+ 
  }
 
 .msgcontent{
@@ -245,6 +250,7 @@ ul li a:hover{
 
 .messageInbox ul:hover{
     background: rgba(121, 116, 116, 0.2);
+    width: 100%;
 }
 
 .sidebar ul a:hover{
@@ -273,6 +279,10 @@ ul li a:hover{
     display:none;
 }
 
+.smailHeader{
+    background: rgba(1, 1, 1, 0.1);
+}
+
 /* ==========================================  draft  ============================================== */
 
 .draftForm{
@@ -291,6 +301,10 @@ ul li a:hover{
     margin-right: 10em;
     margin-top: 3em;
     display:none;
+}
+
+.dmailHeader{
+    background: rgba(1, 1, 1, 0.4);
 }
 
 /* =========================================== create Groupe ======================================== */
