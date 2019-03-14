@@ -10,6 +10,8 @@ function openCompose(){
     inboxForm.style.display = 'none';
     composeEmail.style.display = 'block';
     sentForm.style.display = 'none';
+    draftForm.style.display = 'none';
+    CreateGroupeMailForm.style.display = 'none';
 }
 
 var closeComposeEmail = document.getElementById('closeComposeEmail');
@@ -17,7 +19,7 @@ closeComposeEmail.addEventListener('click', closeCompose);
 
 function closeCompose(){
     composeEmail.style.display = 'none';
-    
+    inboxForm.style.display = 'block';
 }
 
 
@@ -40,6 +42,8 @@ function openInboxView(){
     sentBtn.style.background = 'transparent';
     draftBtn.style.color = 'white';
     draftBtn.style.background = 'transparent'; 
+    CreateGroupeMailForm.style.display = 'none';
+    
 }
 
 // ==================================== sent ===================================================
@@ -60,6 +64,8 @@ function openSentView(){
     inboxBtn.style.background = 'transparent';
     draftBtn.style.color = 'white';
     draftBtn.style.background = 'transparent'; 
+    inboxBtn.style.background = 'transparent';
+    CreateGroupeMailForm.style.display = 'none';
 }
 
 
@@ -82,8 +88,7 @@ function opendraftView(){
     inboxBtn.style.background = 'transparent';
     sentBtn.style.color = 'white';
     sentBtn.style.background = 'transparent';
-
-
+    inboxBtn.style.background = 'transparent';
 }
 
 // ==================================== create Groupe ===================================================
@@ -97,6 +102,7 @@ function openCreateGroupeView(){
     composeEmail.style.display = 'none';
     sentForm.style.display = 'none';
     CreateGroupeMailForm.style.display = 'block';
+    inboxBtn.style.background = 'transparent';
 }
 
 var closeCreateGroupeMail = document.getElementById('closeCreateGroupeMail');
@@ -104,5 +110,6 @@ closeCreateGroupeMail.addEventListener('click', closecreateGrp);
 
 function closecreateGrp(){
     CreateGroupeMailForm.style.display = 'none';
-    
+
+    inboxForm.style.display = 'block';
 }
