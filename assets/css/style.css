@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(29, 28, 28, 0.7),rgba(29, 28, 28, 0.7)),url(../img/Background1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    background-repeat: no-repeat;   
+     overflow-x: hidden;
+     overflow-y: hidden;
+}
+
+.container{
+    max-width: 1455px;
+    margin: 0;
+    
+}
+
+.bar{
+    background: rgba(27, 27, 27, 0.9);
+    padding: 40px;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid rgba(236, 163, 78, 0.9); 
+ 
+}
+
+.bar > *{
+    padding: 1em;
+
+}
+
+.bar ul li{
+    padding-left: 3em;
+}
+
+
+
+
+ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+#signInBtn, #signUpBtn{
+    color: #ffb14a;
+    border-radius: 3em;
+   
+}
+
+#signInBtn{
+    margin-right: 3em;
+}
+
+#signInBtn:hover, #signUpBtn:hover{
+    letter-spacing: 0.2em;
+    transition: all 0.5s ease;
+    background: #555552;
+}
+
+
+
+#frm{
+    display: none;
+}
+
+.Rest{
+    margin: 12em;
+
+    letter-spacing: 1px;
+    color: #ffb14a;
+}
+
+.Rest h1{
+   text-align: center;
+    font-family: 'Century Gothic';
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+.Rest p{
+    color: rgb(240, 231, 215);
+    font-weight: 100;
+    margin-bottom: 1em;
+    text-align: center;
+    display: block;
+
+}
+
+.Rest h3{
+    margin-left: 19em;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-bottom: 0.5px;
+}
+
+.Rest h1 span{
+    color: #ffffff;
+}
+
+
+
+
+/*================================================  login form  ======*/
+
+.loginform{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    position: fixed;
+    top: 130px;
+    z-index: 1;
+    animation-name: loginDisplayAnimation;
+    animation-duration: 1s;
+    overflow: hidden;   
+}
+
+@keyframes loginDisplayAnimation{
+    from{ opacity: 0;}
+    to {opacity: 1;}
+}
+
+.lgnwrapper{
+    box-shadow: 0 0 10px 0 rgba(32, 32, 32, 0.7);
+    border-radius: 10px;
+    width: 27.49%;
+    margin: auto;
+}
+
+.lgnwrapper > *{
+    padding: 1em;
+    
+}
+
+.bottom{
+    background: #cfcec5;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.bottom form{
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.bottom form p{
+    text-align: center;
+    color: black;
+}
+
+.bottom form p{
+    text-align: center;
+    color: black;
+}
+
+#ResetBtn{
+    color: #915b15;
+}
+
+#ResetBtn:hover{
+    color: #d89946;
+    cursor: pointer;
+}
+
+.bottom form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 14px;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#submt{
+    font-family: 'Tw Cen MT Condensed Extra Bold';
+    text-transform: uppercase;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #86857e;
+}
+
+#submt:hover{
+    color: #ffb03a;
+    background: #9b9a93;
+    transition: all 0.1s ease;
+}
+
+.top{
+    background: #555552;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.titre{
+    color: #ffb03a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+} 
+
+
+/* =====================  sign up ===================== */
+.signupform{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    position: fixed;
+    top: 130px;
+    z-index: 1;
+    animation-name: loginDisplayAnimation;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+@keyframes signUpDisplayAnimation{
+    from{ opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+.sgnwrapper{
+    box-shadow: 0 0 10px 0 rgba(32, 32, 32, 0.7);
+    border-radius: 10px;
+    width: 27.49%;
+    margin: auto;
+}
+
+.sgnwrapper > *{
+    padding: 1em;
+    
+}
+
+.bottom1{
+    background: #cfcec5;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+
+.bottom1 form{
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.bottom1 form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 14px;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#submt1{
+    font-family: 'Tw Cen MT Condensed Extra Bold';
+    text-transform: uppercase;
+    text-transform: capitalize;
+    background: #86857e;
+}
+
+#submt1:hover{
+    color: #ffb03a;
+    background: #86857e;
+    transition: all 0.5s ease;
+    background: #9b9a93;
+    cursor: pointer;
+}
+
+.top1{
+    background: #555552;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.titre1{
+    color: #ffb03a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* ================== Reset password ================= */
+
+
+
+.resetPasswdform{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    position: fixed;
+    top: 130px;
+    z-index: 1;
+    animation-name: resetPasswdDisplay;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+@keyframes resetPasswdDisplay{
+    from{ opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+.rstwrapper{
+    box-shadow: 0 0 10px 0 rgba(32, 32, 32, 0.7);
+    border-radius: 10px;
+    width: 27.49%;
+    margin: auto;
+}
+
+.rstwrapper > *{
+    padding: 1em;
+    
+}
+
+.bottom2{
+    background: #cfcec5;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.bottom2 form{
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.bottom2 form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 14px;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#submt2{
+    font-family: 'Tw Cen MT Condensed Extra Bold';
+    text-transform: uppercase;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#submt2:hover{
+    color: #ffb03a;
+    background: #86857e;
+    transition: all 0.5s ease;
+}
+
+.top2{
+    background: #555552;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.titre2{
+    color: #ffb03a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ===================== ***** ==================================*/
+
+
