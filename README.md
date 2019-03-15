@@ -21,7 +21,7 @@ Git - version-control system for tracking changes in source code during software
 # SETUP
 First clone it to your machine:
 
-step 1. git clone https://github.com/Emile-Nsengimana/EPICmail.git
+step 1. git clone https://kagorora.github.io/EpicMailAndela/
 step 2. cd EPICmail
 step 3. Install all necessary node modules
 
