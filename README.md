@@ -9,7 +9,7 @@ css
 javascript
 
 
-# UI template(gh-pages):  https://emile-nsengimana.github.io/EPICmail/UI
+# UI template(gh-pages):  https://kagorora.github.io/EpicMailAndela/
 # Heroku: https://epicmail-andela.herokuapp.com/api/v1/signups
 
 # Requirements
